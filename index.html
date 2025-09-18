@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Entrepreneur Cost Saving Calc</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cost-Saving Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card" aria-labelledby="calc-title">
+      <header class="header">
+        <h1 id="calc-title" class="title">Cost-Saving Calculator</h1>
+        <p class="subtitle">Estimate how much you could save each month and year. Add your current monthly cost and your expected savings percentage.</p>
+      </header>
+
+      <div class="body">
+        <div class="grid" role="group" aria-labelledby="inputs-heading">
+          <h2 id="inputs-heading" class="sr-only">Inputs</h2>
+
+          <div class="field">
+            <label for="currentCost">Current monthly cost</label>
+            <div class="input-wrap">
+              <span class="prefix" aria-hidden="true">$</span>
+              <input id="currentCost" type="text" inputmode="decimal" placeholder="e.g. 1,200" autocomplete="off" aria-describedby="cost-hint" />
+            </div>
+            <div id="cost-hint" class="hint">Enter your typical monthly spend (numbers, commas, or $ are okay).</div>
+          </div>
+
+          <div class="field">
+            <label for="savingsPercent">Expected savings percentage</label>
+            <div class="input-wrap">
+              <span class="prefix" aria-hidden="true">%</span>
+              <input id="savingsPercent" type="text" inputmode="decimal" placeholder="e.g. 15" autocomplete="off" aria-describedby="percent-hint" />
+            </div>
+            <div id="percent-hint" class="hint">A number between 0 and 100. For example, 15 means fifteen percent.</div>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button id="calcBtn" class="btn" aria-label="Calculate savings">
+            <span>Calculate</span>
+          </button>
+          <button id="clearBtn" class="btn secondary" aria-label="Clear inputs and results">
+            <span>Clear</span>
+          </button>
+          <span id="status" class="status">Tip: Press Enter to calculate.</span>
+        </div>
+
+        <div id="error" class="error" role="alert" aria-live="polite"></div>
+
+        <div id="results" class="results" aria-live="polite" aria-atomic="true">
+          <div class="result-card">
+            <div class="result-label">Monthly savings</div>
+            <div class="result-value">
+              <span id="monthlySavings">$0.00</span>
+              <span class="badge" id="monthlyBadge">Calculated</span>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <div class="result-label">Yearly savings</div>
+            <div class="result-value">
+              <span id="yearlySavings">$0.00</span>
+              <span class="badge" id="yearlyBadge">x12 months</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div>Portfolio-ready: clean UI, accessible, and fully functional.</div>
+        <div class="kpi" id="summaryKpi" aria-live="polite">—</div>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
