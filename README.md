@@ -1,6 +1,7 @@
-# Entrepreneur Cost Saving Calc
+I just built a simple cost saving calculator for businesses.
 
-A Pen created on CodePen.
+The idea is to help entrepreneurs quickly see how much they could save with smarter processes or design decisions.
 
-Original URL: [https://codepen.io/wizzytechsttar/pen/LEGPMKO](https://codepen.io/wizzytechsttar/pen/LEGPMKO).
+It’s a small project, but it ties together what I enjoy most: design, development, and driving real business outcomes.
 
+Want to test it out? 
